@@ -1,0 +1,29 @@
+# ---- 操作系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Node / 前端 ----
+node_modules/
+dist/
+.vite/
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+
+# ---- 本仓库不提交的大文件 ----
+# 数据集、checkpoint 与 .ply 模型按设计不入库，若误生成请忽略
+*.ckpt
+*.ply
